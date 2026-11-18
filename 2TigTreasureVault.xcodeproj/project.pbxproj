@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F553D130A3921C003028B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F553C730A3921C003028B3 /* AppDelegate.swift */; };
+		30F553D230A3921C003028B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F553C830A3921C003028B3 /* SceneDelegate.swift */; };
+		30F553D330A3921C003028B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F553C930A3921C003028B3 /* ViewController.swift */; };
+		30F553D430A3921C003028B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F553CB30A3921C003028B3 /* Assets.xcassets */; };
+		30F553D530A3921C003028B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F553CC30A3921C003028B3 /* LaunchScreen.storyboard */; };
+		30F553D630A3921C003028B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F553CE30A3921C003028B3 /* Main.storyboard */; };
+		30F553D730A3921C003028B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F553D030A3921C003028B3 /* ContentView.swift */; };
+		7A021A2A27D185E5556B7A99 /* ThiefArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA712006D532F7A9AE751C7 /* ThiefArt.swift */; };
+		7A076CD1166CB22CC7B6FFA2 /* VaultPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2F474B06BF33EDFBA2620 /* VaultPalette.swift */; };
+		7A0A74E9193F118A3E681B85 /* VaultGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8874088122F9354433C3DD /* VaultGoal.swift */; };
+		7A15C28571A19F3B50592F75 /* VaultHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC525848675051A74E80EF /* VaultHUDView.swift */; };
+		7A17BA97F96B5926FDCBD906 /* TigerStatueArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A801B86F7008813034EED00 /* TigerStatueArt.swift */; };
+		7A227A049D6EE5CE42235544 /* VaultMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A30113DC1835C17643E120C /* VaultMetrics.swift */; };
+		7A23B23A56CAACFCB18D176E /* ChestArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8B824CF4649AE5C05F1EB4 /* ChestArt.swift */; };
+		7A280CFC0457A0206C1A5056 /* LedgerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1FD2ADE6AE6A913F932CD /* LedgerScreen.swift */; };
+		7A29603EA60E52CB2E98AC35 /* RaidEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7D3085CCB04A89B6E80E0 /* RaidEffects.swift */; };
+		7A2A2D153B2037719A6D2340 /* DigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0046A7C48D3D4C36E05013 /* DigSheet.swift */; };
+		7A2D308EBCC6056825F46B6C /* VaultTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE45DFA20BBFF7CD5CD3247 /* VaultTabBar.swift */; };
+		7A2E396A5C102264C0C6BB34 /* VaultBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6BD9563BD25C91F07483CE /* VaultBackgroundView.swift */; };
+		7A317E6CA2696FEF7C043BBE /* RaidPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD68702CE3A7BD30983D3AE /* RaidPlanner.swift */; };
+		7A376459076D0AF25860FF1E /* RaidPowerNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E103075FB83628F0CCAE6 /* RaidPowerNote.swift */; };
+		7A381B54D650095D4B3DFC6C /* ThiefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B9E4FEFAD948D3544BD4A /* ThiefView.swift */; };
+		7A398AE55965232889022BEA /* GoalCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA91BC01E320D9436283F1 /* GoalCatalog.swift */; };
+		7A41ECB627DB6B15A1253F5F /* CoinPileArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53C3D20582C47D2DD752CC /* CoinPileArt.swift */; };
+		7A45CE21367044D7DE0AFD23 /* VaultTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9BB651CFA424399B794A1D /* VaultTypography.swift */; };
+		7A4662D4ABA7906DE23FB5F2 /* CoinLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACC889864734C08F09D1F13 /* CoinLabel.swift */; };
+		7A526DC61DC9910BB38249C2 /* RaidModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6CAE08E4B8309D9FD98D00 /* RaidModels.swift */; };
+		7A5BE0494641CE59AEEFE5DF /* VaultSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2AFBC733F2294E732B732E /* VaultSlotView.swift */; };
+		7A5F5C4270A4471C0E0EA9B3 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA410AC465AFE103399ECC /* AppSettings.swift */; };
+		7A61A1E5E4249E85DBD8F154 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85EC7AE38B202AC18916E1 /* SettingsRow.swift */; };
+		7A62461024CA6ED1813BBBF8 /* RaidPowerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF976F151BB615176F4CA2 /* RaidPowerBar.swift */; };
+		7A72A9400F903BCC4F731B92 /* MainShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2ED4A74141E0DECC869CCB /* MainShellView.swift */; };
+		7A7339C1FDCBAB39BDABF0FA /* VaultPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAADAD5715F875A3C338DA /* VaultPersistence.swift */; };
+		7A73EB28920855C0E309B2CD /* VaultSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C7F56FA4AF00EA52F5CA8 /* VaultSlot.swift */; };
+		7A77A76C46A5CB843FAEFBDD /* GuardianStatueArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49523F8E04F71426B211D0 /* GuardianStatueArt.swift */; };
+		7A782F6B4BD682007A9D0E71 /* GemClusterArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A336AF487E9512EEE30FC05 /* GemClusterArt.swift */; };
+		7A7B13820D415853D7240ED9 /* RaidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8F650DBAD53858100A2E7 /* RaidViewModel.swift */; };
+		7A7C432635A7B3590310C51B /* FireArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4998F24FCFE12280D408A5 /* FireArt.swift */; };
+		7A7D75DA4D392656C3B3CC90 /* RaidOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2122CCEC55D91BE10ADF31 /* RaidOverlays.swift */; };
+		7A7E25107D6458B79E0B4749 /* ShellOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B2DCD8D93C1097F980273 /* ShellOverlays.swift */; };
+		7A82A1A5D5F2FEC08789686E /* RaidTimerChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A910D1043B845345AC52B3C /* RaidTimerChip.swift */; };
+		7A83451F429E059512F3BC7C /* CaveBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A22B7BCBFFA2B9623EFE5EE /* CaveBackdrop.swift */; };
+		7A853A4B30415E7A7450592A /* BestiarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7AD48A3A2B548D5F160C /* BestiarySection.swift */; };
+		7A85BFE3393D0F22A13BFA2C /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21B6D1705CC2542D89901C /* Haptics.swift */; };
+		7A8652A72C028FAEB3B76A1C /* ItemCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8549E0F06026A22D1A259E /* ItemCatalog.swift */; };
+		7A8EA987B318C2529AAABA93 /* CoinFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAAA782217ED12A3CA06418 /* CoinFormatter.swift */; };
+		7A9340C90F175EA29B56F48D /* ItemDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F8E78757C366E038D3FF8 /* ItemDetailSheet.swift */; };
+		7A94119F890DAFC7CBF9185A /* FlameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82E9C846CA0F8776F2ACE1 /* FlameView.swift */; };
+		7A97B488C0099104F1359BC4 /* VaultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4535433AA2A2983052A454 /* VaultScreen.swift */; };
+		7A9C86B1A6BF3179B6979A36 /* RaidScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4D347EEB17055BCD73F0F2 /* RaidScreen.swift */; };
+		7A9DD047D5190E986DC82B09 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EBE3AC6577C6D502DD78C /* AppLink.swift */; };
+		7AA67A6E628B99BFA496F6E7 /* VaultItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA79AD32A3EAFD95F4F83B /* VaultItemSpec.swift */; };
+		7AAE02BFABDF35B126958535 /* Economy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4098BF4AC98AB1AA5405AA /* Economy.swift */; };
+		7AB30DF9165B63C6DF756B49 /* VaultSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA81D9CCDADE612F9B30DF3 /* VaultSave.swift */; };
+		7AB63BD28032E549A9BDE012 /* VaultScrollScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE8C26AC3E1FD1A90203A1F /* VaultScrollScreen.swift */; };
+		7AB7114E7DF0615F4858576C /* BuildSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA837B9530DCD81AFC2E11A /* BuildSheet.swift */; };
+		7ABCB4D7FF0A720D0DC60826 /* VaultItemKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A55CF5239393BFE6052DF22 /* VaultItemKind.swift */; };
+		7AD9687C4065801E0CD5BF7F /* VaultButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CA7F5F4C36DA56DEC6920 /* VaultButtonStyles.swift */; };
+		7ADBF3F3A730C13BBE69690F /* ArtSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F856AB0D7B06E521A5574 /* ArtSpace.swift */; };
+		7ADCC4C6211DD45E4C1265B0 /* RaidPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD46AE10FA9EA5B03C31215 /* RaidPower.swift */; };
+		7ADDE53142A1AB597B5EA68D /* MonsterArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A16B49F8EEED7E8F348F3 /* MonsterArt.swift */; };
+		7AE409780979FC3EBF116EAC /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE89B5ACDB6DFC2E5FC432C /* SettingsScreen.swift */; };
+		7AE5D71C4C695EB164023F1C /* GoalsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C715204688C2BFEBBCFDE /* GoalsScreen.swift */; };
+		7AE6B1B57254C00A934AFCE5 /* PedestalArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7E295E5727785AA2C1983 /* PedestalArt.swift */; };
+		7AEE35F4F8CE01AC50E65407 /* CrownPedestalArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E17D5DB960A2477CC7A51 /* CrownPedestalArt.swift */; };
+		7AF22B77AA459CE3BA0B3905 /* VaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F72ADDF7C796103B1057B /* VaultStore.swift */; };
+		7AF47EE65A67FB641591D4DD /* VaultPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD551A42E7E562CAB65C16A /* VaultPanel.swift */; };
+		7AF5F6139BE37AB1F204855D /* VaultRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6909DE91C87E1F2DB543D2 /* VaultRank.swift */; };
+		7AF7D1458CE8B4241D4CA600 /* CaveSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90DFC4F99B40EAA93A015B /* CaveSceneView.swift */; };
+		7AF865035CC6A9A673E51BB4 /* ItemArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9BB8DB4D828A47FF30B30A /* ItemArtView.swift */; };
+		7AF964E02D3D84C3F3045221 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A839351932C693999DF8419 /* OnboardingView.swift */; };
+		7AFF36EDFD853720E7E609E6 /* SheetScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A558ACF3E43D264A50434B5 /* SheetScaffold.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30F553C130A3921C003028B3 /* 2TigTreasureVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2TigTreasureVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F553C730A3921C003028B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30F553C830A3921C003028B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30F553C930A3921C003028B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30F553CA30A3921C003028B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F553CB30A3921C003028B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30F553CD30A3921C003028B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30F553CF30A3921C003028B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F553D030A3921C003028B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C25B11EDD2716DF42A6E5AE /* Pods-2TigTreasureVault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2TigTreasureVault.debug.xcconfig"; path = "Target Support Files/Pods-2TigTreasureVault/Pods-2TigTreasureVault.debug.xcconfig"; sourceTree = "<group>"; };
+		7A0046A7C48D3D4C36E05013 /* DigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigSheet.swift; sourceTree = "<group>"; };
+		7A1F72ADDF7C796103B1057B /* VaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultStore.swift; sourceTree = "<group>"; };
+		7A2122CCEC55D91BE10ADF31 /* RaidOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidOverlays.swift; sourceTree = "<group>"; };
+		7A21B6D1705CC2542D89901C /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		7A22B7BCBFFA2B9623EFE5EE /* CaveBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaveBackdrop.swift; sourceTree = "<group>"; };
+		7A2AFBC733F2294E732B732E /* VaultSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSlotView.swift; sourceTree = "<group>"; };
+		7A2C7F56FA4AF00EA52F5CA8 /* VaultSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSlot.swift; sourceTree = "<group>"; };
+		7A2CA7F5F4C36DA56DEC6920 /* VaultButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultButtonStyles.swift; sourceTree = "<group>"; };
+		7A2E103075FB83628F0CCAE6 /* RaidPowerNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidPowerNote.swift; sourceTree = "<group>"; };
+		7A2EBE3AC6577C6D502DD78C /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		7A2ED4A74141E0DECC869CCB /* MainShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainShellView.swift; sourceTree = "<group>"; };
+		7A30113DC1835C17643E120C /* VaultMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultMetrics.swift; sourceTree = "<group>"; };
+		7A336AF487E9512EEE30FC05 /* GemClusterArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemClusterArt.swift; sourceTree = "<group>"; };
+		7A3F7AD48A3A2B548D5F160C /* BestiarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestiarySection.swift; sourceTree = "<group>"; };
+		7A3F8E78757C366E038D3FF8 /* ItemDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailSheet.swift; sourceTree = "<group>"; };
+		7A4098BF4AC98AB1AA5405AA /* Economy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Economy.swift; sourceTree = "<group>"; };
+		7A4535433AA2A2983052A454 /* VaultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultScreen.swift; sourceTree = "<group>"; };
+		7A49523F8E04F71426B211D0 /* GuardianStatueArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardianStatueArt.swift; sourceTree = "<group>"; };
+		7A4998F24FCFE12280D408A5 /* FireArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireArt.swift; sourceTree = "<group>"; };
+		7A4D347EEB17055BCD73F0F2 /* RaidScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidScreen.swift; sourceTree = "<group>"; };
+		7A53C3D20582C47D2DD752CC /* CoinPileArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPileArt.swift; sourceTree = "<group>"; };
+		7A558ACF3E43D264A50434B5 /* SheetScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetScaffold.swift; sourceTree = "<group>"; };
+		7A55CF5239393BFE6052DF22 /* VaultItemKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultItemKind.swift; sourceTree = "<group>"; };
+		7A5B9E4FEFAD948D3544BD4A /* ThiefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThiefView.swift; sourceTree = "<group>"; };
+		7A6909DE91C87E1F2DB543D2 /* VaultRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultRank.swift; sourceTree = "<group>"; };
+		7A6BD9563BD25C91F07483CE /* VaultBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultBackgroundView.swift; sourceTree = "<group>"; };
+		7A6C715204688C2BFEBBCFDE /* GoalsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsScreen.swift; sourceTree = "<group>"; };
+		7A6CAE08E4B8309D9FD98D00 /* RaidModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidModels.swift; sourceTree = "<group>"; };
+		7A6E17D5DB960A2477CC7A51 /* CrownPedestalArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownPedestalArt.swift; sourceTree = "<group>"; };
+		7A6F856AB0D7B06E521A5574 /* ArtSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtSpace.swift; sourceTree = "<group>"; };
+		7A7B2DCD8D93C1097F980273 /* ShellOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellOverlays.swift; sourceTree = "<group>"; };
+		7A801B86F7008813034EED00 /* TigerStatueArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerStatueArt.swift; sourceTree = "<group>"; };
+		7A82E9C846CA0F8776F2ACE1 /* FlameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameView.swift; sourceTree = "<group>"; };
+		7A839351932C693999DF8419 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7A8549E0F06026A22D1A259E /* ItemCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCatalog.swift; sourceTree = "<group>"; };
+		7A85EC7AE38B202AC18916E1 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		7A8874088122F9354433C3DD /* VaultGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultGoal.swift; sourceTree = "<group>"; };
+		7A8B824CF4649AE5C05F1EB4 /* ChestArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestArt.swift; sourceTree = "<group>"; };
+		7A90DFC4F99B40EAA93A015B /* CaveSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaveSceneView.swift; sourceTree = "<group>"; };
+		7A910D1043B845345AC52B3C /* RaidTimerChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidTimerChip.swift; sourceTree = "<group>"; };
+		7A9A16B49F8EEED7E8F348F3 /* MonsterArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterArt.swift; sourceTree = "<group>"; };
+		7A9BB651CFA424399B794A1D /* VaultTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultTypography.swift; sourceTree = "<group>"; };
+		7A9BB8DB4D828A47FF30B30A /* ItemArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemArtView.swift; sourceTree = "<group>"; };
+		7AA712006D532F7A9AE751C7 /* ThiefArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThiefArt.swift; sourceTree = "<group>"; };
+		7AA81D9CCDADE612F9B30DF3 /* VaultSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSave.swift; sourceTree = "<group>"; };
+		7AA837B9530DCD81AFC2E11A /* BuildSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSheet.swift; sourceTree = "<group>"; };
+		7AAAA782217ED12A3CA06418 /* CoinFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFormatter.swift; sourceTree = "<group>"; };
+		7AB8F650DBAD53858100A2E7 /* RaidViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidViewModel.swift; sourceTree = "<group>"; };
+		7AC1FD2ADE6AE6A913F932CD /* LedgerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerScreen.swift; sourceTree = "<group>"; };
+		7AC7D3085CCB04A89B6E80E0 /* RaidEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidEffects.swift; sourceTree = "<group>"; };
+		7ACA410AC465AFE103399ECC /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		7ACA91BC01E320D9436283F1 /* GoalCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCatalog.swift; sourceTree = "<group>"; };
+		7ACC889864734C08F09D1F13 /* CoinLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLabel.swift; sourceTree = "<group>"; };
+		7AD46AE10FA9EA5B03C31215 /* RaidPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidPower.swift; sourceTree = "<group>"; };
+		7AD551A42E7E562CAB65C16A /* VaultPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPanel.swift; sourceTree = "<group>"; };
+		7AD68702CE3A7BD30983D3AE /* RaidPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidPlanner.swift; sourceTree = "<group>"; };
+		7ADA79AD32A3EAFD95F4F83B /* VaultItemSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultItemSpec.swift; sourceTree = "<group>"; };
+		7ADAADAD5715F875A3C338DA /* VaultPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPersistence.swift; sourceTree = "<group>"; };
+		7AE45DFA20BBFF7CD5CD3247 /* VaultTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultTabBar.swift; sourceTree = "<group>"; };
+		7AE7E295E5727785AA2C1983 /* PedestalArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedestalArt.swift; sourceTree = "<group>"; };
+		7AE89B5ACDB6DFC2E5FC432C /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		7AE8C26AC3E1FD1A90203A1F /* VaultScrollScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultScrollScreen.swift; sourceTree = "<group>"; };
+		7AF2F474B06BF33EDFBA2620 /* VaultPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPalette.swift; sourceTree = "<group>"; };
+		7AFC525848675051A74E80EF /* VaultHUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultHUDView.swift; sourceTree = "<group>"; };
+		7AFF976F151BB615176F4CA2 /* RaidPowerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidPowerBar.swift; sourceTree = "<group>"; };
+		F57EBD344A66F650227F9C24 /* Pods-2TigTreasureVault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2TigTreasureVault.release.xcconfig"; path = "Target Support Files/Pods-2TigTreasureVault/Pods-2TigTreasureVault.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F553D930A3921C003028B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F553C330A3921C003028B3 = {
+			isa = PBXGroup;
+			children = (
+				30F553C430A3921C003028B3 /* 2TigTreasureVault */,
+				30F553C530A3921C003028B3 /* Frameworks */,
+				30F553C630A3921C003028B3 /* Products */,
+				8E2E79C340163EE8E93F4F32 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		30F553C430A3921C003028B3 /* 2TigTreasureVault */ = {
+			isa = PBXGroup;
+			children = (
+				7AD1D0524B025E57AFFF2634 /* App */,
+				7A5FDB91368D7DDA2418B6CB /* Design */,
+				7A77774BDDEBE30160BE1150 /* Domain */,
+				7A984D844B917CCD4C29DE2A /* Features */,
+				30F553C730A3921C003028B3 /* AppDelegate.swift */,
+				30F553C830A3921C003028B3 /* SceneDelegate.swift */,
+				30F553C930A3921C003028B3 /* ViewController.swift */,
+				30F553CB30A3921C003028B3 /* Assets.xcassets */,
+				30F553CC30A3921C003028B3 /* LaunchScreen.storyboard */,
+				30F553CE30A3921C003028B3 /* Main.storyboard */,
+				30F553CA30A3921C003028B3 /* Info.plist */,
+			);
+			path = 2TigTreasureVault;
+			sourceTree = "<group>";
+		};
+		30F553C530A3921C003028B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F553C630A3921C003028B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F553C130A3921C003028B3 /* 2TigTreasureVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0504C4BB9FEF538D23047D /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA410AC465AFE103399ECC /* AppSettings.swift */,
+				7A1F72ADDF7C796103B1057B /* VaultStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		7A2487FA26EEBAD1A6D13E5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A6CAE08E4B8309D9FD98D00 /* RaidModels.swift */,
+				7AD46AE10FA9EA5B03C31215 /* RaidPower.swift */,
+				7A8874088122F9354433C3DD /* VaultGoal.swift */,
+				7A55CF5239393BFE6052DF22 /* VaultItemKind.swift */,
+				7ADA79AD32A3EAFD95F4F83B /* VaultItemSpec.swift */,
+				7A6909DE91C87E1F2DB543D2 /* VaultRank.swift */,
+				7AA81D9CCDADE612F9B30DF3 /* VaultSave.swift */,
+				7A2C7F56FA4AF00EA52F5CA8 /* VaultSlot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A2C3495591E10CB2A6AB175 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7AE89B5ACDB6DFC2E5FC432C /* SettingsScreen.swift */,
+				7A85EC7AE38B202AC18916E1 /* SettingsRow.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7A4B17A559AD3C6ED8E32861 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7AAAA782217ED12A3CA06418 /* CoinFormatter.swift */,
+				7A4098BF4AC98AB1AA5405AA /* Economy.swift */,
+				7AD68702CE3A7BD30983D3AE /* RaidPlanner.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		7A4B70B1ADF78D301A0A1CD6 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C715204688C2BFEBBCFDE /* GoalsScreen.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		7A4C18CBDF6886F031DD9821 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7A839351932C693999DF8419 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7A5FDB91368D7DDA2418B6CB /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE4F549EAD819AF9D4A65F /* Art */,
+				7AA369A52CF3E6E6E08468A4 /* Components */,
+				7AB2618A6B56A786991AB1B9 /* Theme */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		7A63280742D9834226F486B4 /* Raid */ = {
+			isa = PBXGroup;
+			children = (
+				7A2122CCEC55D91BE10ADF31 /* RaidOverlays.swift */,
+				7A4D347EEB17055BCD73F0F2 /* RaidScreen.swift */,
+				7AB8F650DBAD53858100A2E7 /* RaidViewModel.swift */,
+				7A5B9E4FEFAD948D3544BD4A /* ThiefView.swift */,
+				7AFF976F151BB615176F4CA2 /* RaidPowerBar.swift */,
+				7AC7D3085CCB04A89B6E80E0 /* RaidEffects.swift */,
+			);
+			path = Raid;
+			sourceTree = "<group>";
+		};
+		7A77774BDDEBE30160BE1150 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7A8017993062D8BE89925AEE /* Catalog */,
+				7A4B17A559AD3C6ED8E32861 /* Logic */,
+				7A2487FA26EEBAD1A6D13E5E /* Models */,
+				7ACFDDE7A37052368B369E2A /* Services */,
+				7A0504C4BB9FEF538D23047D /* Stores */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7A8017993062D8BE89925AEE /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA91BC01E320D9436283F1 /* GoalCatalog.swift */,
+				7A8549E0F06026A22D1A259E /* ItemCatalog.swift */,
+				7A2EBE3AC6577C6D502DD78C /* AppLink.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		7A904EC49BE9CA71C017B400 /* Ledger */ = {
+			isa = PBXGroup;
+			children = (
+				7AC1FD2ADE6AE6A913F932CD /* LedgerScreen.swift */,
+				7A3F7AD48A3A2B548D5F160C /* BestiarySection.swift */,
+			);
+			path = Ledger;
+			sourceTree = "<group>";
+		};
+		7A984D844B917CCD4C29DE2A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B70B1ADF78D301A0A1CD6 /* Goals */,
+				7A904EC49BE9CA71C017B400 /* Ledger */,
+				7A4C18CBDF6886F031DD9821 /* Onboarding */,
+				7A63280742D9834226F486B4 /* Raid */,
+				7A9D59AC354A0F6A2C2DB719 /* Root */,
+				7A2C3495591E10CB2A6AB175 /* Settings */,
+				7AD37621194C1FE89AA82366 /* Vault */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7A9D59AC354A0F6A2C2DB719 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				7A2ED4A74141E0DECC869CCB /* MainShellView.swift */,
+				7A7B2DCD8D93C1097F980273 /* ShellOverlays.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		7AA369A52CF3E6E6E08468A4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7ACC889864734C08F09D1F13 /* CoinLabel.swift */,
+				7A2E103075FB83628F0CCAE6 /* RaidPowerNote.swift */,
+				7A558ACF3E43D264A50434B5 /* SheetScaffold.swift */,
+				7A6BD9563BD25C91F07483CE /* VaultBackgroundView.swift */,
+				7A2CA7F5F4C36DA56DEC6920 /* VaultButtonStyles.swift */,
+				7AD551A42E7E562CAB65C16A /* VaultPanel.swift */,
+				7AE8C26AC3E1FD1A90203A1F /* VaultScrollScreen.swift */,
+				7AE45DFA20BBFF7CD5CD3247 /* VaultTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7AB2618A6B56A786991AB1B9 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				7A30113DC1835C17643E120C /* VaultMetrics.swift */,
+				7AF2F474B06BF33EDFBA2620 /* VaultPalette.swift */,
+				7A9BB651CFA424399B794A1D /* VaultTypography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		7ACE4F549EAD819AF9D4A65F /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				7A6F856AB0D7B06E521A5574 /* ArtSpace.swift */,
+				7A22B7BCBFFA2B9623EFE5EE /* CaveBackdrop.swift */,
+				7A8B824CF4649AE5C05F1EB4 /* ChestArt.swift */,
+				7A53C3D20582C47D2DD752CC /* CoinPileArt.swift */,
+				7A6E17D5DB960A2477CC7A51 /* CrownPedestalArt.swift */,
+				7A4998F24FCFE12280D408A5 /* FireArt.swift */,
+				7A82E9C846CA0F8776F2ACE1 /* FlameView.swift */,
+				7A336AF487E9512EEE30FC05 /* GemClusterArt.swift */,
+				7A49523F8E04F71426B211D0 /* GuardianStatueArt.swift */,
+				7A9BB8DB4D828A47FF30B30A /* ItemArtView.swift */,
+				7AE7E295E5727785AA2C1983 /* PedestalArt.swift */,
+				7AA712006D532F7A9AE751C7 /* ThiefArt.swift */,
+				7A9A16B49F8EEED7E8F348F3 /* MonsterArt.swift */,
+				7A801B86F7008813034EED00 /* TigerStatueArt.swift */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		7ACFDDE7A37052368B369E2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7A21B6D1705CC2542D89901C /* Haptics.swift */,
+				7ADAADAD5715F875A3C338DA /* VaultPersistence.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7AD1D0524B025E57AFFF2634 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				30F553D030A3921C003028B3 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7AD37621194C1FE89AA82366 /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				7AA837B9530DCD81AFC2E11A /* BuildSheet.swift */,
+				7A90DFC4F99B40EAA93A015B /* CaveSceneView.swift */,
+				7A0046A7C48D3D4C36E05013 /* DigSheet.swift */,
+				7A3F8E78757C366E038D3FF8 /* ItemDetailSheet.swift */,
+				7AFC525848675051A74E80EF /* VaultHUDView.swift */,
+				7A910D1043B845345AC52B3C /* RaidTimerChip.swift */,
+				7A4535433AA2A2983052A454 /* VaultScreen.swift */,
+				7A2AFBC733F2294E732B732E /* VaultSlotView.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		8E2E79C340163EE8E93F4F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C25B11EDD2716DF42A6E5AE /* Pods-2TigTreasureVault.debug.xcconfig */,
+				F57EBD344A66F650227F9C24 /* Pods-2TigTreasureVault.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F553C030A3921C003028B3 /* 2TigTreasureVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F553DC30A3921C003028B3 /* Build configuration list for PBXNativeTarget "2TigTreasureVault" */;
+			buildPhases = (
+				8C42CA38A8161BCD1DBB700D /* [CP] Check Pods Manifest.lock */,
+				30F553D830A3921C003028B3 /* Sources */,
+				30F553D930A3921C003028B3 /* Frameworks */,
+				30F553DA30A3921C003028B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2TigTreasureVault;
+			productName = 2TigTreasureVault;
+			productReference = 30F553C130A3921C003028B3 /* 2TigTreasureVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F553C230A3921C003028B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					30F553C030A3921C003028B3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 30F553DB30A3921C003028B3 /* Build configuration list for PBXProject "2TigTreasureVault" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F553C330A3921C003028B3;
+			productRefGroup = 30F553C630A3921C003028B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F553C030A3921C003028B3 /* 2TigTreasureVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F553DA30A3921C003028B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F553D430A3921C003028B3 /* Assets.xcassets in Resources */,
+				30F553D530A3921C003028B3 /* LaunchScreen.storyboard in Resources */,
+				30F553D630A3921C003028B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C42CA38A8161BCD1DBB700D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2TigTreasureVault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F553D830A3921C003028B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F553D130A3921C003028B3 /* AppDelegate.swift in Sources */,
+				30F553D230A3921C003028B3 /* SceneDelegate.swift in Sources */,
+				30F553D330A3921C003028B3 /* ViewController.swift in Sources */,
+				30F553D730A3921C003028B3 /* ContentView.swift in Sources */,
+				7ADBF3F3A730C13BBE69690F /* ArtSpace.swift in Sources */,
+				7A83451F429E059512F3BC7C /* CaveBackdrop.swift in Sources */,
+				7A23B23A56CAACFCB18D176E /* ChestArt.swift in Sources */,
+				7A41ECB627DB6B15A1253F5F /* CoinPileArt.swift in Sources */,
+				7AEE35F4F8CE01AC50E65407 /* CrownPedestalArt.swift in Sources */,
+				7A7C432635A7B3590310C51B /* FireArt.swift in Sources */,
+				7A94119F890DAFC7CBF9185A /* FlameView.swift in Sources */,
+				7A782F6B4BD682007A9D0E71 /* GemClusterArt.swift in Sources */,
+				7A77A76C46A5CB843FAEFBDD /* GuardianStatueArt.swift in Sources */,
+				7AF865035CC6A9A673E51BB4 /* ItemArtView.swift in Sources */,
+				7AE6B1B57254C00A934AFCE5 /* PedestalArt.swift in Sources */,
+				7A021A2A27D185E5556B7A99 /* ThiefArt.swift in Sources */,
+				7ADDE53142A1AB597B5EA68D /* MonsterArt.swift in Sources */,
+				7A17BA97F96B5926FDCBD906 /* TigerStatueArt.swift in Sources */,
+				7A4662D4ABA7906DE23FB5F2 /* CoinLabel.swift in Sources */,
+				7A376459076D0AF25860FF1E /* RaidPowerNote.swift in Sources */,
+				7AFF36EDFD853720E7E609E6 /* SheetScaffold.swift in Sources */,
+				7A2E396A5C102264C0C6BB34 /* VaultBackgroundView.swift in Sources */,
+				7AD9687C4065801E0CD5BF7F /* VaultButtonStyles.swift in Sources */,
+				7AF47EE65A67FB641591D4DD /* VaultPanel.swift in Sources */,
+				7AB63BD28032E549A9BDE012 /* VaultScrollScreen.swift in Sources */,
+				7A2D308EBCC6056825F46B6C /* VaultTabBar.swift in Sources */,
+				7A227A049D6EE5CE42235544 /* VaultMetrics.swift in Sources */,
+				7A076CD1166CB22CC7B6FFA2 /* VaultPalette.swift in Sources */,
+				7A45CE21367044D7DE0AFD23 /* VaultTypography.swift in Sources */,
+				7A398AE55965232889022BEA /* GoalCatalog.swift in Sources */,
+				7A8652A72C028FAEB3B76A1C /* ItemCatalog.swift in Sources */,
+				7A9DD047D5190E986DC82B09 /* AppLink.swift in Sources */,
+				7A8EA987B318C2529AAABA93 /* CoinFormatter.swift in Sources */,
+				7AAE02BFABDF35B126958535 /* Economy.swift in Sources */,
+				7A317E6CA2696FEF7C043BBE /* RaidPlanner.swift in Sources */,
+				7A526DC61DC9910BB38249C2 /* RaidModels.swift in Sources */,
+				7ADCC4C6211DD45E4C1265B0 /* RaidPower.swift in Sources */,
+				7A0A74E9193F118A3E681B85 /* VaultGoal.swift in Sources */,
+				7ABCB4D7FF0A720D0DC60826 /* VaultItemKind.swift in Sources */,
+				7AA67A6E628B99BFA496F6E7 /* VaultItemSpec.swift in Sources */,
+				7AF5F6139BE37AB1F204855D /* VaultRank.swift in Sources */,
+				7AB30DF9165B63C6DF756B49 /* VaultSave.swift in Sources */,
+				7A73EB28920855C0E309B2CD /* VaultSlot.swift in Sources */,
+				7A85BFE3393D0F22A13BFA2C /* Haptics.swift in Sources */,
+				7A7339C1FDCBAB39BDABF0FA /* VaultPersistence.swift in Sources */,
+				7A5F5C4270A4471C0E0EA9B3 /* AppSettings.swift in Sources */,
+				7AF22B77AA459CE3BA0B3905 /* VaultStore.swift in Sources */,
+				7AE5D71C4C695EB164023F1C /* GoalsScreen.swift in Sources */,
+				7A280CFC0457A0206C1A5056 /* LedgerScreen.swift in Sources */,
+				7A853A4B30415E7A7450592A /* BestiarySection.swift in Sources */,
+				7AF964E02D3D84C3F3045221 /* OnboardingView.swift in Sources */,
+				7A7D75DA4D392656C3B3CC90 /* RaidOverlays.swift in Sources */,
+				7A9C86B1A6BF3179B6979A36 /* RaidScreen.swift in Sources */,
+				7A7B13820D415853D7240ED9 /* RaidViewModel.swift in Sources */,
+				7A381B54D650095D4B3DFC6C /* ThiefView.swift in Sources */,
+				7A62461024CA6ED1813BBBF8 /* RaidPowerBar.swift in Sources */,
+				7A29603EA60E52CB2E98AC35 /* RaidEffects.swift in Sources */,
+				7A72A9400F903BCC4F731B92 /* MainShellView.swift in Sources */,
+				7A7E25107D6458B79E0B4749 /* ShellOverlays.swift in Sources */,
+				7AE409780979FC3EBF116EAC /* SettingsScreen.swift in Sources */,
+				7A61A1E5E4249E85DBD8F154 /* SettingsRow.swift in Sources */,
+				7AB7114E7DF0615F4858576C /* BuildSheet.swift in Sources */,
+				7AF7D1458CE8B4241D4CA600 /* CaveSceneView.swift in Sources */,
+				7A2A2D153B2037719A6D2340 /* DigSheet.swift in Sources */,
+				7A9340C90F175EA29B56F48D /* ItemDetailSheet.swift in Sources */,
+				7A15C28571A19F3B50592F75 /* VaultHUDView.swift in Sources */,
+				7A82A1A5D5F2FEC08789686E /* RaidTimerChip.swift in Sources */,
+				7A97B488C0099104F1359BC4 /* VaultScreen.swift in Sources */,
+				7A5BE0494641CE59AEEFE5DF /* VaultSlotView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30F553CC30A3921C003028B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F553CD30A3921C003028B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30F553CE30A3921C003028B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F553CF30A3921C003028B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F553DD30A3921C003028B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30F553DE30A3921C003028B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F553DF30A3921C003028B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C25B11EDD2716DF42A6E5AE /* Pods-2TigTreasureVault.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 2TigTreasureVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Treasure Vault";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiger.vault.treasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30F553E030A3921C003028B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57EBD344A66F650227F9C24 /* Pods-2TigTreasureVault.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 2TigTreasureVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Treasure Vault";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiger.vault.treasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F553DB30A3921C003028B3 /* Build configuration list for PBXProject "2TigTreasureVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F553DD30A3921C003028B3 /* Debug */,
+				30F553DE30A3921C003028B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F553DC30A3921C003028B3 /* Build configuration list for PBXNativeTarget "2TigTreasureVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F553DF30A3921C003028B3 /* Debug */,
+				30F553E030A3921C003028B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F553C230A3921C003028B3 /* Project object */;
+}
